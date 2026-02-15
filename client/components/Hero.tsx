@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="relative pt-32 pb-20 px-6 overflow-hidden">
+    <section id="hero" className="relative pt-24 md:pt-32 pb-20 px-6 overflow-hidden">
       <div className="max-w-[1280px] mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -14,7 +14,7 @@ export default function Hero() {
             </div>
 
             {/* Heading with Gradient */}
-            <h1 className="text-5xl md:text-6xl lg:text-[72px] font-extrabold leading-[1] tracking-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-[72px] font-extrabold leading-tight tracking-tight">
               <span className="text-brand-darkText">Complete</span>
               <br />
               <span className="bg-gradient-to-r from-brand-blue to-brand-cyan bg-clip-text text-transparent">
@@ -28,7 +28,7 @@ export default function Hero() {
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-brand-grayText leading-7 max-w-[542px]">
+            <p className="text-lg text-brand-grayText leading-7 max-w-none md:max-w-[542px]">
               Experience precision cooling and world-class service. From
               industrial refrigeration to smart residential AC solutions, we keep
               your world cool.
@@ -66,8 +66,8 @@ export default function Hero() {
             </div>
 
             {/* Energy Savings Card */}
-            <div className="absolute -bottom-8 -left-8 w-[249px] h-[98px] bg-white/70 backdrop-blur-md rounded-2xl border border-white/20 shadow-[0_20px_25px_-5px_rgba(0,0,0,0.10),0_8px_10px_-6px_rgba(0,0,0,0.10)] p-6">
-              <div className="flex items-center gap-4">
+            <div className="lg:absolute relative lg:-bottom-8 lg:-left-8 left-0 lg:w-[249px] w-full lg:h-[98px] h-auto bg-white/70 backdrop-blur-md rounded-2xl border border-white/20 shadow-[0_20px_25px_-5px_rgba(0,0,0,0.10),0_8px_10px_-6px_rgba(0,0,0,0.10)] p-4 lg:p-6">
+              <div className="flex items-center gap-4 flex-wrap">
                 <div className="w-12 h-12 bg-brand-blue rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.6874 21C10.3124 21 10.0312 20.6719 10.0781 20.3438L11.0156 14.0156H7.49994C6.60931 14.0156 7.17181 13.2656 7.17181 13.2188C8.43744 10.9688 10.3593 7.6875 12.8437 3.28125C12.9374 3.09375 13.1249 3 13.3593 3C13.6874 3 13.9687 3.32812 13.9218 3.65625L13.0312 9.98438H16.4999C16.9218 9.98438 17.1562 10.1719 16.9218 10.6406C13.6406 16.4062 11.7187 19.7344 11.1562 20.7188C11.0624 20.9062 10.8749 21 10.6874 21Z" fill="white"/>
