@@ -57,9 +57,9 @@ export default function Leadership() {
               style={{ transform: "rotate(3deg)" }}
             >
               <img
-                src="/profile.png"
+                src="/profile.jpg.jpeg"
                 alt="M.A. Azam, Founder & CEO"
-                className="w-full h-full object-cover object-[center_top]"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>
